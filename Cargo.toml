@@ -1,0 +1,30 @@
+[package]
+name = "waves-wallet-generator"
+version = "0.1.0"
+authors = ["DEADBLACKCLOVER <deadblackclover@protonmail.com>"]
+description = "CLI address generator for Waves blockchain"
+edition = "2018"
+license = "GPL-3.0"
+readme = "README.md"
+homepage = "https://github.com/waves-rust/waves-lib-rust"
+repository = "https://github.com/waves-rust/waves-lib-rust"
+keywords = ["waves", "blockchain", "address"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.0"
+wavesplatform = "0.2.1"
+
+[package.metadata.deb]
+maintainer = "DEADBLACKCLOVER <deadblackclover@protonmail.com>"
+copyright = "2020, DEADBLACKCLOVER <deadblackclover@protonmail.com>"
+license-file = ["LICENSE", "0"]
+extended-description = "CLI address generator for Waves blockchain"
+depends = "$auto"
+section = "utils"
+priority = "optional"
+assets = [
+    ["target/release/waves-wallet-generator", "usr/bin/", "755"],
+    ["README.md", "usr/share/doc/waves-wallet-generator/README", "644"],
+]
