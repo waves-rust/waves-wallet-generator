@@ -9,7 +9,7 @@ If you have Debian/Ubuntu: [Releases](https://github.com/waves-rust/waves-wallet
 ## Usage
 
 ```bash
-walletgen 0.1.0
+waves-wallet-generator 0.1.0
 DEADBLACKCLOVER <deadblackclover@protonmail.com>
 CLI address generator for Waves blockchain
 
