@@ -6,9 +6,9 @@ use generator::*;
 
 fn main() {
     let matches = App::new("walletgen")
-        .version("0.1.2")
+        .version("0.1.0")
         .author("DEADBLACKCLOVER <deadblackclover@protonmail.com>")
-        .about("CLI address generator for Acryl or Waves")
+        .about("CLI address generator for Waves blockchain")
         .arg(
             Arg::with_name("count")
                 .short("c")

@@ -6,8 +6,8 @@ description = "CLI address generator for Waves blockchain"
 edition = "2018"
 license = "GPL-3.0"
 readme = "README.md"
-homepage = "https://github.com/waves-rust/waves-lib-rust"
-repository = "https://github.com/waves-rust/waves-lib-rust"
+homepage = "https://github.com/waves-rust/waves-wallet-generator"
+repository = "https://github.com/waves-rust/waves-wallet-generator"
 keywords = ["waves", "blockchain", "address"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
