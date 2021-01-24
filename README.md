@@ -1,4 +1,7 @@
 # waves-wallet-generator
+
+![crates.io](https://img.shields.io/crates/v/waves-wallet-generator.svg)
+
 Address generator for Waves blockchain :credit_card:
 
 ## Install
