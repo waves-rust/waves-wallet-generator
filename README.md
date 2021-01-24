@@ -2,7 +2,7 @@
 Address generator for Waves blockchain :credit_card:
 
 ## Install
-If you have Rust: `cargo install cyber-wallet-generator`
+If you have Rust: `cargo install waves-wallet-generator`
 
 If you have Debian/Ubuntu: [Releases](https://github.com/waves-rust/waves-wallet-generator/releases)
 
